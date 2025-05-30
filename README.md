@@ -8,7 +8,7 @@ This project demonstrates a fully operational, low-cost, and reproducible method
 - A flatbed scanner
 - ImageJ (Fiji)
 - Manual SPAD measurements (SPAD-502 Minolta)
-- An old RGB calibration chart used to validate digital optical density over time
+- A RGB calibration chart used to validate digital optical density over time
 - Statistical modelling (regression)
 
 The goal is to democratize plant physiological diagnostics using only free tools and common devices, without dependence on proprietary sensors.
