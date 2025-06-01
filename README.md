@@ -123,4 +123,11 @@ This repository demonstrates the scientific validity of **participative ecologic
 
 ---
 
+🔗 **Related project**:  
+🌱 [Lyra_LowCost_Soil_Leaf](https://github.com/Jerome-openclassroom/Lyra_LowCost_Soil_Leaf)  
+*A complementary system linking low-cost soil diagnostics with foliar analysis, forming a coherent ecological AI pipeline.*
+
+
+---
+
 © Jérôme-X1, 2025
