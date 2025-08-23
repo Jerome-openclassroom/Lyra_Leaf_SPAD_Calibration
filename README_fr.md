@@ -91,35 +91,36 @@ Cette courbe sera utilisée pour simuler des données synthétiques supplémenta
 ---
 
 ## 📂 Structure du Dépôt
-```text
+```
 Lyra_Leaf_SPAD_Calibration/
-├── Calibration/
-│   ├── Corrélation gris vert imageJ.png
-│   ├── Mesures_niveau_gris_mire.xlsx
-│   ├── calibration ImageJ.txt
-│   ├── calibration mire image J_Jérôme.xlsx
-│   ├── comparaison densitomètre scanner.png
-│   ├── densite_verte_calibration_mire_Lyra.xlsx
-│   ├── densitométrie mire 2009.jpg
-│   ├── gradation RVB sur la mire.png
-│   ├── mire 600 dpi.png
-│   ├── mire Kodack 100 dpi.jpg
-│   └── mire densité gris.png
+├── Calibration/                         # Fichiers de calibration (mires, scans, feuilles Excel)
+│   ├── Correlation_gris_vert_imageJ.png     # Corrélation entre niveau de gris et canal vert ImageJ
+│   ├── Mesures_niveau_gris_mire.xlsx        # Mesures de la mire de calibration en niveaux de gris
+│   ├── calibration_ImageJ.txt               # Notes texte pour la calibration sous ImageJ
+│   ├── calibration_mire_J_Jerome.xlsx       # Jeu de données personnalisé (Jérôme)
+│   ├── comparaison_densitometre_scanner.png # Comparaison scanner vs densitomètre
+│   ├── densite_verte_calibration_Lyra.xlsx  # Données de calibration de densité verte
+│   ├── mire_densitometrie_2009.jpg          # Mire historique de densitométrie (2009)
+│   ├── gradation_RVB_mire.png               # Gradation RVB sur la mire
+│   ├── mire_600dpi.png                      # Scan haute résolution à 600 dpi
+│   ├── mire_Kodak_100dpi.jpg                # Mire style Kodak (100 dpi)
+│   └── mire_densite_gris.png                # Référence densité en niveaux de gris
 │
-├── En Français/
-│   ├── Lisez moi.pdf
-│   └── Validation scanner et mire_Fr.pdf
+├── En Français/                         # Documentation en français
+│   ├── Lisez_moi.pdf                        # Notes explicatives en français
+│   └── Validation_scanner_mire_Fr.pdf       # Validation scanner vs mire (version française)
 │
-├── data/
-│   ├── Citronnier couleur.jpg
-│   └── Citronnier greyscale.jpg
+├── data/                               # Images d’échantillons de feuilles
+│   ├── Citronnier_couleur.jpg              # Feuille de citronnier (couleur)
+│   └── Citronnier_niveaux_de_gris.jpg      # Feuille de citronnier (niveaux de gris)
 │
-├── result/
-│   ├── Modele_SPAD_DO_verte.png
-│   └── SPAD DO Vert.xlsx
+├── result/                             # Résultats produits
+│   ├── Modele_SPAD_DO_verte.png            # Graphique du modèle de régression
+│   └── SPAD_DO_verte.xlsx                  # Table de données SPAD vs DO verte
 │
-├── README.md
-└── README_fr.md
+├── README.md                           # Documentation principale (anglais)
+└── README_fr.md                        # Documentation traduite (français)
+
 ```
 
 ---
