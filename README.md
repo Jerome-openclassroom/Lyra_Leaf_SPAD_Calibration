@@ -91,32 +91,33 @@ This plot shows the regression fit obtained from five leaf samples scanned and m
 ```
 Lyra_Leaf_SPAD_Calibration/
 ├── Calibration/                         # Calibration files (charts, scans, Excel sheets)
-│   ├── Correlation_green_gray_imageJ.png    # Correlation between gray level and ImageJ green channel
-│   ├── Gray_level_measurements.xlsx         # Measurements of calibration gray chart
-│   ├── calibration_ImageJ.txt               # Text notes for ImageJ calibration
-│   ├── calibration_chart_J_Jerome.xlsx      # Custom calibration dataset (Jérôme)
-│   ├── densitometer_scanner_comparison.png  # Comparison between scanner and densitometer
-│   ├── green_density_calibration_Lyra.xlsx  # Green density calibration dataset
-│   ├── densitometry_chart_2009.jpg          # Historical densitometry chart (2009)
-│   ├── RGB_gradation_chart.png              # RGB gradation on the chart
-│   ├── chart_600dpi.png                     # High-resolution scan at 600 dpi
-│   ├── chart_Kodak_100dpi.jpg               # Kodak-style chart (100 dpi)
-│   └── gray_density_chart.png               # Gray density reference
+│   ├── Corrélation gris vert imageJ.png     # Correlation between gray level and ImageJ green channel
+│   ├── Mesures_niveau_gris_mire.xlsx        # Measurements of calibration gray chart
+│   ├── calibration ImageJ.txt               # Text notes for ImageJ calibration
+│   ├── calibration mire image J_Jérôme.xlsx # Custom calibration dataset (Jérôme)
+│   ├── comparaison densitomètre scanner.png # Comparison between scanner and densitometer
+│   ├── densite_verte_calibration_mire_Lyra.xlsx # Green density calibration dataset
+│   ├── densitométrie mire 2009.jpg          # Historical densitometry chart (2009)
+│   ├── gradation RVB sur la mire.png        # RGB gradation on the chart
+│   ├── mire 600 dpi.png                     # High-resolution scan at 600 dpi
+│   ├── mire Kodack 100 dpi.jpg              # Kodak-style chart (100 dpi)
+│   └── mire densité gris.png                # Gray density reference
 │
 ├── En Français/                         # French documentation
 │   ├── Lisez moi.pdf                         # Readme notes in French
-│   └── Validation_scanner_chart_Fr.pdf       # Validation of scanner vs chart (French version)
+│   └── Validation scanner et mire_Fr.pdf     # Validation of scanner vs chart (French version)
 │
 ├── data/                               # Sample leaf images
-│   ├── LemonTree_color.jpg                 # Lemon tree leaf (color)
-│   └── LemonTree_greyscale.jpg             # Lemon tree leaf (grayscale)
+│   ├── Citronnier couleur.jpg              # Lemon tree leaf (color)
+│   └── Citronnier greyscale.jpg            # Lemon tree leaf (grayscale)
 │
 ├── result/                             # Output results
-│   ├── Model_SPAD_DO_green.png             # Regression model graph
-│   └── SPAD_DO_green.xlsx                  # Data table SPAD vs DO green
+│   ├── Modele_SPAD_DO_verte.png            # Regression model graph
+│   └── SPAD DO Vert.xlsx                   # Data table SPAD vs DO green
 │
 ├── README.md                           # Main documentation (English)
 └── README_fr.md                        # Translated documentation (French)
+
 
 ```
 
